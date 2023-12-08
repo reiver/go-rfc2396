@@ -47,6 +47,69 @@ func TestBytes(t *testing.T) {
 
 
 		{
+			Value:        []byte("0"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("0"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("1"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("1"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("2"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("2"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("3"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("3"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("4"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("4"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("5"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("5"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("6"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("6"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("7"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("7"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("8"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("8"),
+			ExpectedOK: false,
+		},
+		{
+			Value:        []byte("9"),
+			ExpectedResult: nil,
+			ExpectedRest: []byte("9"),
+			ExpectedOK: false,
+		},
+
+
+
+		{
 			Value:          []byte("com"),
 			ExpectedResult: []byte("com"),
 			ExpectedRest: nil,
