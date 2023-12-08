@@ -169,7 +169,7 @@ func TestByteIs(t *testing.T) {
 			Expected: false,
 		},
 		{
-			Value: 0x27, // == '\\'
+			Value: 0x27, // == '\''
 			Expected: true,
 		},
 		{
